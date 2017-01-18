@@ -2,6 +2,8 @@
 
 ## Version 1.0.0
 
+The T21LoggerSwift class is a simple wrapper class for the SwiftyBeaver public third party logger library.
+
 ### Add a context
 
 The logger wrapper provides an easy way to add a Context related String for the different logs. In the following example we are creating 3 different loggers:
