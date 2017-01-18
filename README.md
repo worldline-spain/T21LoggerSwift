@@ -1,8 +1,8 @@
 #T21LoggerSwift
 
-## Version 1.0.0
-
 The T21LoggerSwift class is a simple wrapper class for the SwiftyBeaver public third party logger library.
+
+## Version 1.0.0
 
 ### Add a context
 
