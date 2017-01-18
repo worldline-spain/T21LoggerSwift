@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5ADBEC112738D34286AB7C /* Pods_T21Logger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931D30C6F941DDCF10D6A724 /* Pods_T21Logger.framework */; };
+		B9BF84B31E2FD08800DE923D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B21E2FD08800DE923D /* AppDelegate.swift */; };
+		B9BF84B51E2FD08800DE923D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B41E2FD08800DE923D /* ViewController.swift */; };
+		B9BF84B81E2FD08800DE923D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84B61E2FD08800DE923D /* Main.storyboard */; };
+		B9BF84BA1E2FD08800DE923D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84B91E2FD08800DE923D /* Assets.xcassets */; };
+		B9BF84BD1E2FD08800DE923D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84BB1E2FD08800DE923D /* LaunchScreen.storyboard */; };
+		B9BF84C61E2FD0C800DE923D /* T21Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84C51E2FD0C800DE923D /* T21Logger.swift */; };
+		B9BF84C81E2FD54100DE923D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84C71E2FD54100DE923D /* Podfile */; };
+		B9BF84CA1E2FD5C400DE923D /* T21LoggerSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84C91E2FD5C400DE923D /* T21LoggerSwift.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FE476C44669158B6A8DB908 /* Pods-T21Logger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21Logger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger.debug.xcconfig"; sourceTree = "<group>"; };
+		564D7226A2E91DC5D0C8CDF4 /* Pods-T21Logger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21Logger.release.xcconfig"; path = "Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger.release.xcconfig"; sourceTree = "<group>"; };
+		931D30C6F941DDCF10D6A724 /* Pods_T21Logger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T21Logger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BF84AF1E2FD08800DE923D /* T21Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Logger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BF84B21E2FD08800DE923D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9BF84B41E2FD08800DE923D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9BF84B71E2FD08800DE923D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9BF84B91E2FD08800DE923D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9BF84BC1E2FD08800DE923D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9BF84BE1E2FD08800DE923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BF84C51E2FD0C800DE923D /* T21Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T21Logger.swift; sourceTree = "<group>"; };
+		B9BF84C71E2FD54100DE923D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9BF84C91E2FD5C400DE923D /* T21LoggerSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T21LoggerSwift.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9BF84AC1E2FD08800DE923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5ADBEC112738D34286AB7C /* Pods_T21Logger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35A6164BDFA687B7248114B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FE476C44669158B6A8DB908 /* Pods-T21Logger.debug.xcconfig */,
+				564D7226A2E91DC5D0C8CDF4 /* Pods-T21Logger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C6C83FF7E536555D57E9FB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				931D30C6F941DDCF10D6A724 /* Pods_T21Logger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9BF84A61E2FD08800DE923D = {
+			isa = PBXGroup;
+			children = (
+				B9BF84C41E2FD0C800DE923D /* src */,
+				B9BF84B11E2FD08800DE923D /* T21Logger */,
+				B9BF84B01E2FD08800DE923D /* Products */,
+				35A6164BDFA687B7248114B4 /* Pods */,
+				6C6C83FF7E536555D57E9FB7 /* Frameworks */,
+				B9BF84C91E2FD5C400DE923D /* T21LoggerSwift.podspec */,
+				B9BF84C71E2FD54100DE923D /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		B9BF84B01E2FD08800DE923D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF84AF1E2FD08800DE923D /* T21Logger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9BF84B11E2FD08800DE923D /* T21Logger */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF84B21E2FD08800DE923D /* AppDelegate.swift */,
+				B9BF84B41E2FD08800DE923D /* ViewController.swift */,
+				B9BF84B61E2FD08800DE923D /* Main.storyboard */,
+				B9BF84B91E2FD08800DE923D /* Assets.xcassets */,
+				B9BF84BB1E2FD08800DE923D /* LaunchScreen.storyboard */,
+				B9BF84BE1E2FD08800DE923D /* Info.plist */,
+			);
+			path = T21Logger;
+			sourceTree = "<group>";
+		};
+		B9BF84C41E2FD0C800DE923D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF84C51E2FD0C800DE923D /* T21Logger.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9BF84AE1E2FD08800DE923D /* T21Logger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BF84C11E2FD08800DE923D /* Build configuration list for PBXNativeTarget "T21Logger" */;
+			buildPhases = (
+				5D1AC62B5FC498FBF1276682 /* [CP] Check Pods Manifest.lock */,
+				B9BF84AB1E2FD08800DE923D /* Sources */,
+				B9BF84AC1E2FD08800DE923D /* Frameworks */,
+				B9BF84AD1E2FD08800DE923D /* Resources */,
+				348C811C64E4CB31C1DF007B /* [CP] Embed Pods Frameworks */,
+				A2CDDC585426BCB1ADD86FD0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T21Logger;
+			productName = T21Logger;
+			productReference = B9BF84AF1E2FD08800DE923D /* T21Logger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9BF84A71E2FD08800DE923D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Worldline;
+				TargetAttributes = {
+					B9BF84AE1E2FD08800DE923D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C2UZU6ZLJE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B9BF84AA1E2FD08800DE923D /* Build configuration list for PBXProject "T21Logger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9BF84A61E2FD08800DE923D;
+			productRefGroup = B9BF84B01E2FD08800DE923D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9BF84AE1E2FD08800DE923D /* T21Logger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9BF84AD1E2FD08800DE923D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BF84BD1E2FD08800DE923D /* LaunchScreen.storyboard in Resources */,
+				B9BF84BA1E2FD08800DE923D /* Assets.xcassets in Resources */,
+				B9BF84CA1E2FD5C400DE923D /* T21LoggerSwift.podspec in Resources */,
+				B9BF84C81E2FD54100DE923D /* Podfile in Resources */,
+				B9BF84B81E2FD08800DE923D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		348C811C64E4CB31C1DF007B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1AC62B5FC498FBF1276682 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2CDDC585426BCB1ADD86FD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9BF84AB1E2FD08800DE923D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BF84B51E2FD08800DE923D /* ViewController.swift in Sources */,
+				B9BF84B31E2FD08800DE923D /* AppDelegate.swift in Sources */,
+				B9BF84C61E2FD0C800DE923D /* T21Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9BF84B61E2FD08800DE923D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BF84B71E2FD08800DE923D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9BF84BB1E2FD08800DE923D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BF84BC1E2FD08800DE923D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9BF84BF1E2FD08800DE923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9BF84C01E2FD08800DE923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9BF84C21E2FD08800DE923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE476C44669158B6A8DB908 /* Pods-T21Logger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				INFOPLIST_FILE = T21Logger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21Logger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B9BF84C31E2FD08800DE923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564D7226A2E91DC5D0C8CDF4 /* Pods-T21Logger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				INFOPLIST_FILE = T21Logger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21Logger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9BF84AA1E2FD08800DE923D /* Build configuration list for PBXProject "T21Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BF84BF1E2FD08800DE923D /* Debug */,
+				B9BF84C01E2FD08800DE923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BF84C11E2FD08800DE923D /* Build configuration list for PBXNativeTarget "T21Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BF84C21E2FD08800DE923D /* Debug */,
+				B9BF84C31E2FD08800DE923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9BF84A71E2FD08800DE923D /* Project object */;
+}
