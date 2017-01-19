@@ -11,7 +11,28 @@ import SwiftyBeaver
 
 public class T21Logger {
     
-    //MARK: Private methods
+    public let context: String
+    
+    public init( _ context: String = "APP") {
+        self.context = context
+        
+        var consoleDestinationAlreadyExists = false
+        for destination in SwiftyBeaver.destinations {
+            if let consoleDest = destination as? ConsoleDestination {
+                consoleDestinationAlreadyExists = true
+                configureDestination(consoleDest)
+            }
+        }
+        
+        if !consoleDestinationAlreadyExists {
+            let consoleDest = ConsoleDestination()
+            configureDestination(consoleDest)
+            SwiftyBeaver.addDestination(consoleDest)
+        }
+    }
+    
+    //MARK: Public logging methods
+    
     public func verbose(_ message: String?, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
         SwiftyBeaver.verbose(formatMessage(message),file,function,line: line)
     }
@@ -32,6 +53,9 @@ public class T21Logger {
         SwiftyBeaver.error(formatMessage(message),file,function,line: line)
     }
     
+    
+    //MARK: Private
+
     private func formatMessage( _ message: String?) -> String {
         let c = self.context
         if let m = message {
@@ -40,27 +64,7 @@ public class T21Logger {
             return ""
         }
     }
-    
-    public let context: String
-    
-    public init( _ context: String = "APP") {
-        self.context = context
 
-        var consoleDestinationAlreadyExists = false
-        for destination in SwiftyBeaver.destinations {
-            if let consoleDest = destination as? ConsoleDestination {
-                consoleDestinationAlreadyExists = true
-                configureDestination(consoleDest)
-            }
-        }
-        
-        if !consoleDestinationAlreadyExists {
-            let consoleDest = ConsoleDestination()
-            configureDestination(consoleDest)
-            SwiftyBeaver.addDestination(consoleDest)
-        }
-    }
-    
     private func configureDestination( _ consoleDest: ConsoleDestination) {
         consoleDest.format = "$C$DHH:mm:ss.SSS$d $L$c $N.$F:$l - $M"
         consoleDest.levelColor.verbose = "💭"
@@ -68,5 +72,13 @@ public class T21Logger {
         consoleDest.levelColor.info = "ℹ️"
         consoleDest.levelColor.warning = "⚠️"
         consoleDest.levelColor.error = "🚫"
+        
+        #if DEBUG
+            consoleDest.minLevel = .verbose
+            consoleDest.asynchronously = false
+        #else
+            consoleDest.minLevel = .info
+            consoleDest.asynchronously = true
+        #endif
     }
 }
