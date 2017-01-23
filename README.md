@@ -92,3 +92,25 @@ AppLogger.error("Error message!")
 🚫18:26:04.546 ERROR AppDelegate.application():26 - [APP] Error message!
 
 ```
+
+
+### Adding DEBUG behaviour
+
+When using Cocoapods dependency manager the auto generaed project doesn't add **DEBUG** flags for the pod dependencies. As *T21LoggerSwift* works different when compiled with DEBUG options you may add the following post-install script in your Podfile.
+
+```
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            if config.name == 'Debug'
+            	#in case of using Objective-C 
+                config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)', 'DEBUG=1']
+            	#in case of using Swift
+                config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['$(inherited)','-DDEBUG']
+            end
+        end
+    end
+end
+
+```
