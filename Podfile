@@ -11,7 +11,7 @@ target 'T21Logger' do
 #Dependencies for the primary target (the main app or the main library)
 use_frameworks!
 
-pod 'SwiftyBeaver', '~>1.1.1'
+pod 'SwiftyBeaver', '~>1'
 
 end
 
