@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source_files  = "src/**/*.{swift}"
   s.framework  = "Foundation", "UIKit"
   s.requires_arc = true
-  s.dependency "SwiftyBeaver", "~>1"
+  s.dependency "SwiftyBeaver", "~>1.4"
 
 end
