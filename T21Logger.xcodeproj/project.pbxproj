@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A5ADBEC112738D34286AB7C /* Pods_T21Logger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931D30C6F941DDCF10D6A724 /* Pods_T21Logger.framework */; };
 		B9BF84B31E2FD08800DE923D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B21E2FD08800DE923D /* AppDelegate.swift */; };
 		B9BF84B51E2FD08800DE923D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B41E2FD08800DE923D /* ViewController.swift */; };
 		B9BF84B81E2FD08800DE923D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84B61E2FD08800DE923D /* Main.storyboard */; };
@@ -19,9 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FE476C44669158B6A8DB908 /* Pods-T21Logger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21Logger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger.debug.xcconfig"; sourceTree = "<group>"; };
-		564D7226A2E91DC5D0C8CDF4 /* Pods-T21Logger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21Logger.release.xcconfig"; path = "Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger.release.xcconfig"; sourceTree = "<group>"; };
-		931D30C6F941DDCF10D6A724 /* Pods_T21Logger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T21Logger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BF84AF1E2FD08800DE923D /* T21Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Logger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BF84B21E2FD08800DE923D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9BF84B41E2FD08800DE923D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,38 +35,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A5ADBEC112738D34286AB7C /* Pods_T21Logger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35A6164BDFA687B7248114B4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3FE476C44669158B6A8DB908 /* Pods-T21Logger.debug.xcconfig */,
-				564D7226A2E91DC5D0C8CDF4 /* Pods-T21Logger.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6C6C83FF7E536555D57E9FB7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				931D30C6F941DDCF10D6A724 /* Pods_T21Logger.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B9BF84A61E2FD08800DE923D = {
 			isa = PBXGroup;
 			children = (
 				B9BF84C41E2FD0C800DE923D /* src */,
 				B9BF84B11E2FD08800DE923D /* T21Logger */,
 				B9BF84B01E2FD08800DE923D /* Products */,
-				35A6164BDFA687B7248114B4 /* Pods */,
-				6C6C83FF7E536555D57E9FB7 /* Frameworks */,
 				B9BF84C91E2FD5C400DE923D /* T21LoggerSwift.podspec */,
 				B9BF84C71E2FD54100DE923D /* Podfile */,
 			);
@@ -112,12 +88,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9BF84C11E2FD08800DE923D /* Build configuration list for PBXNativeTarget "T21Logger" */;
 			buildPhases = (
-				5D1AC62B5FC498FBF1276682 /* [CP] Check Pods Manifest.lock */,
 				B9BF84AB1E2FD08800DE923D /* Sources */,
 				B9BF84AC1E2FD08800DE923D /* Frameworks */,
 				B9BF84AD1E2FD08800DE923D /* Resources */,
-				348C811C64E4CB31C1DF007B /* [CP] Embed Pods Frameworks */,
-				A2CDDC585426BCB1ADD86FD0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,60 +150,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		348C811C64E4CB31C1DF007B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D1AC62B5FC498FBF1276682 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-T21Logger-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A2CDDC585426BCB1ADD86FD0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9BF84AB1E2FD08800DE923D /* Sources */ = {
@@ -374,7 +293,6 @@
 		};
 		B9BF84C21E2FD08800DE923D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FE476C44669158B6A8DB908 /* Pods-T21Logger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
@@ -388,7 +306,6 @@
 		};
 		B9BF84C31E2FD08800DE923D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 564D7226A2E91DC5D0C8CDF4 /* Pods-T21Logger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
