@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8084FE228972A400FE5118 /* SwiftyBeaver.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F8084FC228972A300FE5118 /* SwiftyBeaver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F8084FF228972A400FE5118 /* T21NotifierLibrary.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F8084FD228972A400FE5118 /* T21NotifierLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F808501228972A700FE5118 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8084FC228972A300FE5118 /* SwiftyBeaver.framework */; };
+		3F808502228972A700FE5118 /* T21NotifierLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8084FD228972A400FE5118 /* T21NotifierLibrary.framework */; };
 		B9BF84B31E2FD08800DE923D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B21E2FD08800DE923D /* AppDelegate.swift */; };
 		B9BF84B51E2FD08800DE923D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B41E2FD08800DE923D /* ViewController.swift */; };
 		B9BF84B81E2FD08800DE923D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84B61E2FD08800DE923D /* Main.storyboard */; };
@@ -17,7 +21,23 @@
 		B9BF84CA1E2FD5C400DE923D /* T21LoggerSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84C91E2FD5C400DE923D /* T21LoggerSwift.podspec */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3F8084FB2289728F00FE5118 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F8084FE228972A400FE5118 /* SwiftyBeaver.framework in CopyFiles */,
+				3F8084FF228972A400FE5118 /* T21NotifierLibrary.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3F8084FC228972A300FE5118 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
+		3F8084FD228972A400FE5118 /* T21NotifierLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = T21NotifierLibrary.framework; path = Carthage/Build/iOS/T21NotifierLibrary.framework; sourceTree = "<group>"; };
 		B9BF84AF1E2FD08800DE923D /* T21Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Logger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BF84B21E2FD08800DE923D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9BF84B41E2FD08800DE923D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,20 +55,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F808501228972A700FE5118 /* SwiftyBeaver.framework in Frameworks */,
+				3F808502228972A700FE5118 /* T21NotifierLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F808500228972A700FE5118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9BF84A61E2FD08800DE923D = {
 			isa = PBXGroup;
 			children = (
+				3F8084FC228972A300FE5118 /* SwiftyBeaver.framework */,
+				3F8084FD228972A400FE5118 /* T21NotifierLibrary.framework */,
 				B9BF84C41E2FD0C800DE923D /* src */,
 				B9BF84B11E2FD08800DE923D /* T21Logger */,
 				B9BF84B01E2FD08800DE923D /* Products */,
 				B9BF84C91E2FD5C400DE923D /* T21LoggerSwift.podspec */,
 				B9BF84C71E2FD54100DE923D /* Podfile */,
+				3F808500228972A700FE5118 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +123,7 @@
 				B9BF84AB1E2FD08800DE923D /* Sources */,
 				B9BF84AC1E2FD08800DE923D /* Frameworks */,
 				B9BF84AD1E2FD08800DE923D /* Resources */,
+				3F8084FB2289728F00FE5118 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -296,6 +329,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = T21Logger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21Logger;
@@ -309,6 +346,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = T21Logger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21Logger;
