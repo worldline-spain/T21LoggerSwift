@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F8084FE228972A400FE5118 /* SwiftyBeaver.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F8084FC228972A300FE5118 /* SwiftyBeaver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3F8084FF228972A400FE5118 /* T21NotifierLibrary.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F8084FD228972A400FE5118 /* T21NotifierLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F808501228972A700FE5118 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8084FC228972A300FE5118 /* SwiftyBeaver.framework */; };
-		3F808502228972A700FE5118 /* T21NotifierLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8084FD228972A400FE5118 /* T21NotifierLibrary.framework */; };
 		B9BF84B31E2FD08800DE923D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B21E2FD08800DE923D /* AppDelegate.swift */; };
 		B9BF84B51E2FD08800DE923D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B41E2FD08800DE923D /* ViewController.swift */; };
 		B9BF84B81E2FD08800DE923D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84B61E2FD08800DE923D /* Main.storyboard */; };
@@ -29,7 +27,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3F8084FE228972A400FE5118 /* SwiftyBeaver.framework in CopyFiles */,
-				3F8084FF228972A400FE5118 /* T21NotifierLibrary.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		3F8084FC228972A300FE5118 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
-		3F8084FD228972A400FE5118 /* T21NotifierLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = T21NotifierLibrary.framework; path = Carthage/Build/iOS/T21NotifierLibrary.framework; sourceTree = "<group>"; };
 		B9BF84AF1E2FD08800DE923D /* T21Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Logger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BF84B21E2FD08800DE923D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9BF84B41E2FD08800DE923D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +52,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F808501228972A700FE5118 /* SwiftyBeaver.framework in Frameworks */,
-				3F808502228972A700FE5118 /* T21NotifierLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				3F8084FC228972A300FE5118 /* SwiftyBeaver.framework */,
-				3F8084FD228972A400FE5118 /* T21NotifierLibrary.framework */,
 				B9BF84C41E2FD0C800DE923D /* src */,
 				B9BF84B11E2FD08800DE923D /* T21Logger */,
 				B9BF84B01E2FD08800DE923D /* Products */,
