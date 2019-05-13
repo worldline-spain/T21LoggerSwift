@@ -26,3 +26,7 @@ Podfile.lock
 
 #svn
 .svn
+
+#Carthage
+Carthage
+Cartfile.resolved
