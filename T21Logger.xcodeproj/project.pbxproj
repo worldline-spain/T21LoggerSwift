@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36C48BA922897D81002FB257 /* T21LoggerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C48BA722897D81002FB257 /* T21LoggerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36C48BB122897D89002FB257 /* T21Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84C51E2FD0C800DE923D /* T21Logger.swift */; };
-		36C48BB222897E13002FB257 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C48B9D22897D4B002FB257 /* SwiftyBeaver.framework */; };
+		3F59F32C228AD9B400164434 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C48B9D22897D4B002FB257 /* SwiftyBeaver.framework */; };
+		3F59F32E228AD9BB00164434 /* SwiftyBeaver.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F59F32D228AD9BB00164434 /* SwiftyBeaver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F59F338228AD9F800164434 /* T21LoggerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F59F336228AD9F800164434 /* T21LoggerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F59F33B228AD9F800164434 /* T21LoggerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F59F334228AD9F800164434 /* T21LoggerSwift.framework */; };
+		3F59F33C228AD9F800164434 /* T21LoggerSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F59F334228AD9F800164434 /* T21LoggerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F59F340228ADA0500164434 /* T21Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84C51E2FD0C800DE923D /* T21Logger.swift */; };
+		3F59F341228ADA6500164434 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F59F32D228AD9BB00164434 /* SwiftyBeaver.framework */; };
 		B9BF84B31E2FD08800DE923D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B21E2FD08800DE923D /* AppDelegate.swift */; };
 		B9BF84B51E2FD08800DE923D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B41E2FD08800DE923D /* ViewController.swift */; };
 		B9BF84B81E2FD08800DE923D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84B61E2FD08800DE923D /* Main.storyboard */; };
@@ -18,16 +22,15 @@
 		B9BF84C61E2FD0C800DE923D /* T21Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84C51E2FD0C800DE923D /* T21Logger.swift */; };
 		B9BF84C81E2FD54100DE923D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84C71E2FD54100DE923D /* Podfile */; };
 		B9BF84CA1E2FD5C400DE923D /* T21LoggerSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84C91E2FD5C400DE923D /* T21LoggerSwift.podspec */; };
-		DF775FA694AF9B6CB2982AF2 /* Pods_T21Logger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A10554AB16D7DCDBA70B3C8 /* Pods_T21Logger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		36C48BAA22897D81002FB257 /* PBXContainerItemProxy */ = {
+		3F59F339228AD9F800164434 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9BF84A71E2FD08800DE923D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36C48BA422897D80002FB257;
-			remoteInfo = T21LoggerFramework;
+			remoteGlobalIDString = 3F59F333228AD9F800164434;
+			remoteInfo = T21LoggerSwift;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,6 +41,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3F59F33C228AD9F800164434 /* T21LoggerSwift.framework in CopyFiles */,
+				3F59F32E228AD9BB00164434 /* SwiftyBeaver.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,12 +50,10 @@
 
 /* Begin PBXFileReference section */
 		36C48B9D22897D4B002FB257 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
-		36C48BA522897D80002FB257 /* T21LoggerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21LoggerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36C48BA722897D81002FB257 /* T21LoggerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21LoggerFramework.h; sourceTree = "<group>"; };
-		36C48BA822897D81002FB257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5682F80DFEC1724FF95E8814 /* Pods-T21Logger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21Logger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger.debug.xcconfig"; sourceTree = "<group>"; };
-		5B8262FEA8E09C6F1D4DDA66 /* Pods-T21Logger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21Logger.release.xcconfig"; path = "Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger.release.xcconfig"; sourceTree = "<group>"; };
-		9A10554AB16D7DCDBA70B3C8 /* Pods_T21Logger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T21Logger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F59F32D228AD9BB00164434 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
+		3F59F334228AD9F800164434 /* T21LoggerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21LoggerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F59F336228AD9F800164434 /* T21LoggerSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21LoggerSwift.h; sourceTree = "<group>"; };
+		3F59F337228AD9F800164434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9BF84AF1E2FD08800DE923D /* T21Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Logger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BF84B21E2FD08800DE923D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9BF84B41E2FD08800DE923D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,11 +67,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36C48BA222897D80002FB257 /* Frameworks */ = {
+		3F59F331228AD9F800164434 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C48BB222897E13002FB257 /* SwiftyBeaver.framework in Frameworks */,
+				3F59F341228ADA6500164434 /* SwiftyBeaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,36 +79,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF775FA694AF9B6CB2982AF2 /* Pods_T21Logger.framework in Frameworks */,
+				3F59F33B228AD9F800164434 /* T21LoggerSwift.framework in Frameworks */,
+				3F59F32C228AD9B400164434 /* SwiftyBeaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36C48BA622897D81002FB257 /* T21LoggerFramework */ = {
+		3F59F335228AD9F800164434 /* T21LoggerSwift */ = {
 			isa = PBXGroup;
 			children = (
-				36C48BA722897D81002FB257 /* T21LoggerFramework.h */,
-				36C48BA822897D81002FB257 /* Info.plist */,
+				3F59F336228AD9F800164434 /* T21LoggerSwift.h */,
+				3F59F337228AD9F800164434 /* Info.plist */,
 			);
-			path = T21LoggerFramework;
-			sourceTree = "<group>";
-		};
-		3D951F43277939BE40414E0C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5682F80DFEC1724FF95E8814 /* Pods-T21Logger.debug.xcconfig */,
-				5B8262FEA8E09C6F1D4DDA66 /* Pods-T21Logger.release.xcconfig */,
-			);
-			name = Pods;
+			path = T21LoggerSwift;
 			sourceTree = "<group>";
 		};
 		3F808500228972A700FE5118 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				36C48B9D22897D4B002FB257 /* SwiftyBeaver.framework */,
-				9A10554AB16D7DCDBA70B3C8 /* Pods_T21Logger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,14 +107,14 @@
 		B9BF84A61E2FD08800DE923D = {
 			isa = PBXGroup;
 			children = (
+				3F59F32D228AD9BB00164434 /* SwiftyBeaver.framework */,
 				B9BF84C41E2FD0C800DE923D /* src */,
 				B9BF84B11E2FD08800DE923D /* T21Logger */,
-				36C48BA622897D81002FB257 /* T21LoggerFramework */,
+				3F59F335228AD9F800164434 /* T21LoggerSwift */,
 				B9BF84B01E2FD08800DE923D /* Products */,
 				B9BF84C91E2FD5C400DE923D /* T21LoggerSwift.podspec */,
 				B9BF84C71E2FD54100DE923D /* Podfile */,
 				3F808500228972A700FE5118 /* Frameworks */,
-				3D951F43277939BE40414E0C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				B9BF84AF1E2FD08800DE923D /* T21Logger.app */,
-				36C48BA522897D80002FB257 /* T21LoggerFramework.framework */,
+				3F59F334228AD9F800164434 /* T21LoggerSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,50 +151,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		36C48BA022897D80002FB257 /* Headers */ = {
+		3F59F32F228AD9F800164434 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C48BA922897D81002FB257 /* T21LoggerFramework.h in Headers */,
+				3F59F338228AD9F800164434 /* T21LoggerSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		36C48BA422897D80002FB257 /* T21LoggerFramework */ = {
+		3F59F333228AD9F800164434 /* T21LoggerSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36C48BAE22897D81002FB257 /* Build configuration list for PBXNativeTarget "T21LoggerFramework" */;
+			buildConfigurationList = 3F59F33D228AD9F800164434 /* Build configuration list for PBXNativeTarget "T21LoggerSwift" */;
 			buildPhases = (
-				36C48BA022897D80002FB257 /* Headers */,
-				36C48BA122897D80002FB257 /* Sources */,
-				36C48BA222897D80002FB257 /* Frameworks */,
-				36C48BA322897D80002FB257 /* Resources */,
+				3F59F32F228AD9F800164434 /* Headers */,
+				3F59F330228AD9F800164434 /* Sources */,
+				3F59F331228AD9F800164434 /* Frameworks */,
+				3F59F332228AD9F800164434 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = T21LoggerFramework;
-			productName = T21LoggerFramework;
-			productReference = 36C48BA522897D80002FB257 /* T21LoggerFramework.framework */;
+			name = T21LoggerSwift;
+			productName = T21LoggerSwift;
+			productReference = 3F59F334228AD9F800164434 /* T21LoggerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B9BF84AE1E2FD08800DE923D /* T21Logger */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9BF84C11E2FD08800DE923D /* Build configuration list for PBXNativeTarget "T21Logger" */;
 			buildPhases = (
-				3F9737CDB0EEED45969C72FC /* [CP] Check Pods Manifest.lock */,
 				B9BF84AB1E2FD08800DE923D /* Sources */,
 				B9BF84AC1E2FD08800DE923D /* Frameworks */,
 				B9BF84AD1E2FD08800DE923D /* Resources */,
 				3F8084FB2289728F00FE5118 /* CopyFiles */,
-				4F0055FDC8372928188A25AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				36C48BAB22897D81002FB257 /* PBXTargetDependency */,
+				3F59F33A228AD9F800164434 /* PBXTargetDependency */,
 			);
 			name = T21Logger;
 			productName = T21Logger;
@@ -217,7 +209,7 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Worldline;
 				TargetAttributes = {
-					36C48BA422897D80002FB257 = {
+					3F59F333228AD9F800164434 = {
 						CreatedOnToolsVersion = 10.1;
 						DevelopmentTeam = C2UZU6ZLJE;
 						ProvisioningStyle = Automatic;
@@ -243,13 +235,13 @@
 			projectRoot = "";
 			targets = (
 				B9BF84AE1E2FD08800DE923D /* T21Logger */,
-				36C48BA422897D80002FB257 /* T21LoggerFramework */,
+				3F59F333228AD9F800164434 /* T21LoggerSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		36C48BA322897D80002FB257 /* Resources */ = {
+		3F59F332228AD9F800164434 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,59 +262,12 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		3F9737CDB0EEED45969C72FC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-T21Logger-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4F0055FDC8372928188A25AB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-T21Logger/Pods-T21Logger-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		36C48BA122897D80002FB257 /* Sources */ = {
+		3F59F330228AD9F800164434 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C48BB122897D89002FB257 /* T21Logger.swift in Sources */,
+				3F59F340228ADA0500164434 /* T21Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,10 +284,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		36C48BAB22897D81002FB257 /* PBXTargetDependency */ = {
+		3F59F33A228AD9F800164434 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36C48BA422897D80002FB257 /* T21LoggerFramework */;
-			targetProxy = 36C48BAA22897D81002FB257 /* PBXContainerItemProxy */;
+			target = 3F59F333228AD9F800164434 /* T21LoggerSwift */;
+			targetProxy = 3F59F339228AD9F800164434 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -366,7 +311,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		36C48BAF22897D81002FB257 /* Debug */ = {
+		3F59F33E228AD9F800164434 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -388,13 +333,13 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = T21LoggerFramework/Info.plist;
+				INFOPLIST_FILE = T21LoggerSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21LoggerFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = worldline.T21LoggerSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -404,7 +349,7 @@
 			};
 			name = Debug;
 		};
-		36C48BB022897D81002FB257 /* Release */ = {
+		3F59F33F228AD9F800164434 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -426,12 +371,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = T21LoggerFramework/Info.plist;
+				INFOPLIST_FILE = T21LoggerSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21LoggerFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = worldline.T21LoggerSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -550,7 +495,6 @@
 		};
 		B9BF84C21E2FD08800DE923D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5682F80DFEC1724FF95E8814 /* Pods-T21Logger.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -570,7 +514,6 @@
 		};
 		B9BF84C31E2FD08800DE923D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B8262FEA8E09C6F1D4DDA66 /* Pods-T21Logger.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -591,11 +534,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36C48BAE22897D81002FB257 /* Build configuration list for PBXNativeTarget "T21LoggerFramework" */ = {
+		3F59F33D228AD9F800164434 /* Build configuration list for PBXNativeTarget "T21LoggerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36C48BAF22897D81002FB257 /* Debug */,
-				36C48BB022897D81002FB257 /* Release */,
+				3F59F33E228AD9F800164434 /* Debug */,
+				3F59F33F228AD9F800164434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
