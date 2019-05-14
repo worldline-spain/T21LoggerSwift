@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author    = "Eloi Guzman Ceron"
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "https://github.com/worldline-spain/T21LoggerSwift.git", :tag => "1.2.0" }
+  s.source       = { :git => "https://github.com/worldline-spain/T21LoggerSwift.git", :branch => "feature/carthage-integration" }
   s.source_files  = "src/**/*.{swift}"
   s.framework  = "Foundation", "UIKit"
   s.requires_arc = true
