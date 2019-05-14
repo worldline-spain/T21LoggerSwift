@@ -10,8 +10,6 @@
 		3F59F34E228AE1BF00164434 /* T21LoggerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F59F34C228AE1BF00164434 /* T21LoggerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F59F356228AE1DA00164434 /* T21Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84C51E2FD0C800DE923D /* T21Logger.swift */; };
 		3F59F357228AE1F500164434 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F59F342228AE0F800164434 /* SwiftyBeaver.framework */; };
-		3F59F35C228AE57600164434 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C48B9D22897D4B002FB257 /* SwiftyBeaver.framework */; };
-		3F59F360228AE5A600164434 /* SwiftyBeaver.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F59F342228AE0F800164434 /* SwiftyBeaver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B9BF84B31E2FD08800DE923D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B21E2FD08800DE923D /* AppDelegate.swift */; };
 		B9BF84B51E2FD08800DE923D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B41E2FD08800DE923D /* ViewController.swift */; };
 		B9BF84B81E2FD08800DE923D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84B61E2FD08800DE923D /* Main.storyboard */; };
@@ -21,19 +19,6 @@
 		B9BF84C81E2FD54100DE923D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84C71E2FD54100DE923D /* Podfile */; };
 		B9BF84CA1E2FD5C400DE923D /* T21LoggerSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84C91E2FD5C400DE923D /* T21LoggerSwift.podspec */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		3F59F35D228AE57A00164434 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				3F59F360228AE5A600164434 /* SwiftyBeaver.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		36C48B9D22897D4B002FB257 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
@@ -68,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F59F35C228AE57600164434 /* SwiftyBeaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +169,6 @@
 				B9BF84AB1E2FD08800DE923D /* Sources */,
 				B9BF84AC1E2FD08800DE923D /* Frameworks */,
 				B9BF84AD1E2FD08800DE923D /* Resources */,
-				3F59F35D228AE57A00164434 /* CopyFiles */,
 			);
 			buildRules = (
 			);
