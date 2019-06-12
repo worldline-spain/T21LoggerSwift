@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let customLoggerRealm = T21Logger("REALM")
     let customLoggerHTTPRequester = T21Logger("NETWORK")
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         customLogger.verbose("App verbose message")
         customLogger.debug("App verbose message")
