@@ -10,7 +10,7 @@ let package = Package(
             targets: ["T21Logger"]),
     ],
     dependencies: [
-        .package(path: "https://github.com/SwiftyBeaver/SwiftyBeaver.git"),
+        .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver.git", from: "1.7.0"),
     ],
     targets: [
         .target(
