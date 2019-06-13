@@ -3,10 +3,11 @@
 > Wrapper for SwiftyBeaver
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/badge/pod-2.0.0-informational.svg)](http://cocoapods.org/pods/Swinject)
+[![CocoaPods compatible](https://img.shields.io/badge/pod-2.1.0-informational.svg)](http://cocoapods.org/pods/Swinject)
 [![Swift compatible](https://img.shields.io/badge/Swift-5.0-orange.svg)]()
 [![Platform compatible](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]()
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)]()
+[![SwiftPM](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
 The T21Logger class is a simple wrapper class for the SwiftyBeaver public third party logger library.
 
@@ -16,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Installation
 
-T21Logger is available through [Carthage](https://github.com/Carthage/Carthage) or [CocoaPods](https://cocoapods.org).
+T21Logger is available through [Carthage](https://github.com/Carthage/Carthage), [CocoaPods](https://cocoapods.org) or [Swift Package Manager](https://swift.org/package-manager/).
 
 ### Carthage
 
@@ -42,6 +43,15 @@ pod 'T21LoggerSwift'
 ```
 
 Then run `pod install` command. For details of the installation and usage of CocoaPods, visit [its official website](https://cocoapods.org).
+
+### Swift Package Manager
+To integrate using Apple's Swift Package Manager, add the following as a dependency to your `Package.swift`.
+
+```rubi
+.package(url: "https://github.com/worldline-spain/T21LoggerSwift.git", .upToNextMajor(from: "2.1.0"))
+```
+
+For details of the installation and usage of Swift Package Manager, visit [its official website](https://swift.org/package-manager/).
 
 ## How to use
 
