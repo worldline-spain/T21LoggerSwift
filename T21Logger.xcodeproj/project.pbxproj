@@ -10,6 +10,7 @@
 		3F59F34E228AE1BF00164434 /* T21LoggerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F59F34C228AE1BF00164434 /* T21LoggerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F59F356228AE1DA00164434 /* T21Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84C51E2FD0C800DE923D /* T21Logger.swift */; };
 		3F59F357228AE1F500164434 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F59F342228AE0F800164434 /* SwiftyBeaver.framework */; };
+		3FDBEEA122B23A3B005A15B9 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBEEA022B23A3B005A15B9 /* Package.swift */; };
 		B9BF84B31E2FD08800DE923D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B21E2FD08800DE923D /* AppDelegate.swift */; };
 		B9BF84B51E2FD08800DE923D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF84B41E2FD08800DE923D /* ViewController.swift */; };
 		B9BF84B81E2FD08800DE923D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF84B61E2FD08800DE923D /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		3F59F34A228AE1BF00164434 /* T21LoggerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21LoggerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F59F34C228AE1BF00164434 /* T21LoggerSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21LoggerSwift.h; sourceTree = "<group>"; };
 		3F59F34D228AE1BF00164434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDBEEA022B23A3B005A15B9 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		B9BF84AF1E2FD08800DE923D /* T21Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Logger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BF84B21E2FD08800DE923D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9BF84B41E2FD08800DE923D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		B9BF84A61E2FD08800DE923D = {
 			isa = PBXGroup;
 			children = (
+				3FDBEEA022B23A3B005A15B9 /* Package.swift */,
 				3F59F342228AE0F800164434 /* SwiftyBeaver.framework */,
 				B9BF84C41E2FD0C800DE923D /* src */,
 				B9BF84B11E2FD08800DE923D /* T21Logger */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDBEEA122B23A3B005A15B9 /* Package.swift in Sources */,
 				B9BF84B51E2FD08800DE923D /* ViewController.swift in Sources */,
 				B9BF84B31E2FD08800DE923D /* AppDelegate.swift in Sources */,
 				B9BF84C61E2FD0C800DE923D /* T21Logger.swift in Sources */,
