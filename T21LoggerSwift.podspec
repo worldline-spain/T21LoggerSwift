@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name		= "T21LoggerSwift"
-  s.version		= "2.0.0"
+  s.version		= "2.1.0"
   s.summary		= "The T21LoggerSwift class is a simple wrapper class for the SwiftyBeaver public third party logger library."
   s.author		= "Eloi Guzman Ceron"
   s.platform		= :ios
